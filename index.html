@@ -14,20 +14,22 @@
         <div id="dropdown">
           <button onclick="selectHero()" class="herobutton">Your Hero</button>
           <div id="herodiv" class="hero-content">
-              <button onclick="displayHero()" id="druidButton">Druid <img class="heroIcon" src="img/druid.png"></button>
-              <button onclick="displayHero()" id="druidButton">Hunter <img class="heroIcon" src="img/hunter.png"></button>
-              <button onclick="displayHero()" id="druidButton">Mage <img class="heroIcon" src="img/mage.png"></button>
-              <button onclick="displayHero()" id="druidButton">Paladin <img class="heroIcon" src="img/paladin.png"></button>
-              <button onclick="displayHero()" id="druidButton">Priest <img class="heroIcon" src="img/priest.png"></button>
-              <button onclick="displayHero()" id="druidButton">Rogue <img class="heroIcon" src="img/rogue.png"></button>
-              <button onclick="displayHero()" id="druidButton">Shaman <img class="heroIcon" src="img/shaman.png"></button>
-              <button onclick="displayHero()" id="druidButton">Warlock <img class="heroIcon" src="img/warlock.png"></button>
-              <button onclick="displayHero()" id="druidButton">Warrior <img class="heroIcon" src="img/warrior.png"></button>
+              <button onclick="displayHero(this.id)" id="druidButton">Druid <img class="heroIcon" src="img/druid.png"></button>
+              <button onclick="displayHero(this.id)" id="hunterButton">Hunter <img class="heroIcon" src="img/hunter.png"></button>
+              <button onclick="displayHero(this.id)" id="mageButton">Mage <img class="heroIcon" src="img/mage.png"></button>
+              <button onclick="displayHero(this.id)" id="paladinButton">Paladin <img class="heroIcon" src="img/paladin.png"></button>
+              <button onclick="displayHero(this.id)" id="priestButton">Priest <img class="heroIcon" src="img/priest.png"></button>
+              <button onclick="displayHero(this.id)" id="rogueButton">Rogue <img class="heroIcon" src="img/rogue.png"></button>
+              <button onclick="displayHero(this.id)" id="shamanButton">Shaman <img class="heroIcon" src="img/shaman.png"></button>
+              <button onclick="displayHero(this.id)" id="warlockButton">Warlock <img class="heroIcon" src="img/warlock.png"></button>
+              <button onclick="displayHero(this.id)" id="warriorButton">Warrior <img class="heroIcon" src="img/warrior.png"></button>
           </div>
         </div>
 
         <div id="versusDiv">
-
+          <img id="heroImage" src="img/EmptyHero.png">
+          <h1>VERSUS</h1>
+          <img id="opponentImage" src="img/EmptyHero.png">
         </div>
 
 
@@ -35,15 +37,15 @@
         <div id="dropdown">
           <button onclick="selectOpponent()" class="oppenentbutton">Your Opponent</button>
           <div id="opponentdiv" class="opponent-content">
-              <button onclick="displayOpponent()" id="druidButton">Druid <img class="heroIcon" src="img/druid.png"></a>
-              <button onclick="displayOpponent()" id="druidButton">Hunter <img class="heroIcon" src="img/hunter.png"></a>
-              <button onclick="displayOpponent()" id="druidButton">Mage <img class="heroIcon" src="img/mage.png"></a>
-              <button onclick="displayOpponent()" id="druidButton">Paladin <img class="heroIcon" src="img/paladin.png"></a>
-              <button onclick="displayOpponent()" id="druidButton">Priest <img class="heroIcon" src="img/priest.png"></a>
-              <button onclick="displayOpponent()" id="druidButton">Rogue <img class="heroIcon" src="img/rogue.png"></a>
-              <button onclick="displayOpponent()" id="druidButton">Shaman <img class="heroIcon" src="img/shaman.png"></a>
-              <button onclick="displayOpponent()" id="druidButton">Warlock <img class="heroIcon" src="img/warlock.png"></a>
-              <button onclick="displayOpponent()" id="druidButton">Warrior <img class="heroIcon" src="img/warrior.png"></a>
+              <button onclick="displayOpponent(this.id)" id="druidButton">Druid <img class="heroIcon" src="img/druid.png"></a>
+              <button onclick="displayOpponent(this.id)" id="hunterButton">Hunter <img class="heroIcon" src="img/hunter.png"></a>
+              <button onclick="displayOpponent(this.id)" id="mageButton">Mage <img class="heroIcon" src="img/mage.png"></a>
+              <button onclick="displayOpponent(this.id)" id="paladinButton">Paladin <img class="heroIcon" src="img/paladin.png"></a>
+              <button onclick="displayOpponent(this.id)" id="priestButton">Priest <img class="heroIcon" src="img/priest.png"></a>
+              <button onclick="displayOpponent(this.id)" id="rogueutton">Rogue <img class="heroIcon" src="img/rogue.png"></a>
+              <button onclick="displayOpponent(this.id)" id="shamanButton">Shaman <img class="heroIcon" src="img/shaman.png"></a>
+              <button onclick="displayOpponent(this.id)" id="warlockButton">Warlock <img class="heroIcon" src="img/warlock.png"></a>
+              <button onclick="displayOpponent(this.id)" id="warriorButton">Warrior <img class="heroIcon" src="img/warrior.png"></a>
           </div>
         </div>
     </div>

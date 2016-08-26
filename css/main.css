@@ -66,6 +66,22 @@ padding-bottom: 2%;
   height: 30px;
 }
 
+#heroImage{
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  background-color: blue;
+  float: left;
+}
+
+#opponentImage{
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  background-color: red;
+  float: right;
+}
+
 /* Links inside the dropdown */
 .hero-content button {
     color: black;
