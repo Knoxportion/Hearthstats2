@@ -39,3 +39,8 @@ window.onclick = function(event) {
     }
   }
 }
+
+//Something like this should work. Add if statements for various classes
+function displayHero(){
+  document.getElementById("imageid").src="../template/save.png";
+}
