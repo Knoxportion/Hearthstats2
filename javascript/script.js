@@ -22,7 +22,7 @@ window.onclick = function(event) {
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function selectOpponent() {
-    document.getElementById("opponentdiv").classList.toggle("show");
+    document.getElementById("opponentdiv").classList.toggle("show2");
 }
 
 // Close the dropdown menu if the user clicks outside of it
@@ -40,7 +40,7 @@ window.onclick = function(event) {
   }
 }
 
-//Something like this should work. Add if statements for various classes
+//Function that adds the class portrait to selected hero
 function displayHero(clicked_id){
 if(clicked_id == "druidButton"){
   document.getElementById("heroImage").src="img/druid.png";
@@ -68,5 +68,36 @@ if(clicked_id == "warlockButton"){
 }
 if(clicked_id == "warriorButton"){
   document.getElementById("heroImage").src="img/warrior.png";
+}
+}
+
+//Function that adds the class portrait to selected opponent
+function displayOpponent(clicked_id){
+if(clicked_id == "druidButton"){
+  document.getElementById("opponentImage").src="img/druid.png";
+}
+if(clicked_id == "hunterButton"){
+  document.getElementById("opponentImage").src="img/hunter.png";
+}
+if(clicked_id == "mageButton"){
+  document.getElementById("opponentImage").src="img/mage.png";
+}
+if(clicked_id == "paladinButton"){
+  document.getElementById("opponentImage").src="img/paladin.png";
+}
+if(clicked_id == "priestButton"){
+  document.getElementById("opponentImage").src="img/priest.png";
+}
+if(clicked_id == "rogueButton"){
+  document.getElementById("opponentImage").src="img/rogue.png";
+}
+if(clicked_id == "shamanButton"){
+  document.getElementById("opponentImage").src="img/shaman.png";
+}
+if(clicked_id == "warlockButton"){
+  document.getElementById("opponentImage").src="img/warlock.png";
+}
+if(clicked_id == "warriorButton"){
+  document.getElementById("opponentImage").src="img/warrior.png";
 }
 }
