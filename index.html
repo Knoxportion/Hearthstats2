@@ -13,6 +13,7 @@
       <!--DROPDOWN HERO-->
         <div class="dropdown">
           <button onclick="selectHero()" class="herobutton">Your Hero</button>
+          <br>
           <div id="herodiv" class="hero-content">
               <button onclick="displayHero(this.id)" id="druidButton">Druid <img class="heroIcon" src="img/druid.png"></button>
               <button onclick="displayHero(this.id)" id="hunterButton">Hunter <img class="heroIcon" src="img/hunter.png"></button>
@@ -29,6 +30,7 @@
 <!--DROPDOWN OPPONENT-->
         <div class="dropdown2">
           <button onclick="selectOpponent()" class="oppenentbutton">Your Opponent</button>
+          <br>
           <div id="opponentdiv" class="opponent-content">
               <button onclick="displayOpponent(this.id)" id="druidButton">Druid <img class="heroIcon" src="img/druid.png"></a>
               <button onclick="displayOpponent(this.id)" id="hunterButton">Hunter <img class="heroIcon" src="img/hunter.png"></a>
@@ -43,19 +45,18 @@
         </div>
     </div>
 
+
     <div id="MainDiv">
-
       <div id="versusDiv">
-        <img id="heroImage" src="img/EmptyHero.png">
-        <h1>VERSUS</h1>
-        <img id="opponentImage" src="img/EmptyHero.png">
-      </div>
 
+          <img id="heroImage" src="img/EmptyHero.png">
+
+          <img id="opponentImage" src="img/EmptyHero.png">
+
+      </div>
     </div>
 
-
 <script src="javascript/script.js"></script>
+
   </body>
-
-
 </html>
