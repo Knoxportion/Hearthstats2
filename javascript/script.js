@@ -1,3 +1,5 @@
+var classPics = ["druid.png", "hunter.png", "mage.png", "paladin.png", "priest.png", "rogue.png", "shaman.png", "warlock.png", "warrior.png" ];
+
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function selectHero() {
